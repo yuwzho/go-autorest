@@ -77,6 +77,6 @@ steps:
 
 - task: PublishCodeCoverageResults@1
   inputs:
-    codeCoverageTool: Cobertura 
+    codeCoverageTool: Cobertura
     summaryFileLocation: $(sdkPath)/coverage.xml
     additionalCodeCoverageFiles: $(sdkPath)/coverage.html
